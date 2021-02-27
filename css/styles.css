@@ -1,0 +1,289 @@
+* {margin: 0;
+    padding: 0;}
+body{
+	/*overflow-x: hidden;*/
+}
+ .contact{ position: relative;}
+ .form{background-color: #f88f01;
+    height: 100px;}
+ .one{background-color: #58391c;
+    height: 100px;}
+
+ .two{width: 800px;
+    position: absolute;
+    background-color: black;
+    padding: 15px;
+    top: 60px;left:50%;
+	 transform: translate(-50%);
+    border-radius: 10px 30px;
+    display: flex;
+    justify-content: space-around;}
+
+
+    .two a{text-decoration: none;
+        padding: 15px;
+        color: #e8eae6;
+    }
+
+   .acide{border-bottom:  3px solid#f0a500;}
+
+  a:hover {border-bottom :3px solid#f0a500 ;}
+
+  @media screen and (max-width: 650px){
+   .two {width: 100%;
+  }}
+
+      
+
+  /*setcion1*/
+
+   #active{width: 100%;
+    height: 600px;
+     position: relative;
+
+    background:linear-gradient(#f88f01,rgba(0,0,0,0.5)),
+    url(../image/watch.jpeg);
+    background-size: cover;
+    }
+
+    .pont{position: absolute;
+        top: 20%;
+        left: 15%;}
+    
+
+     .pont h1{color: #e8eae6;
+        font-size: 50px;}
+
+     .pont p{font-size: 20px;
+        color: #e8eae6;padding: 15px 5px;
+}
+   
+
+     .pont .butn1{padding: 7px 10px;
+        background: transparent;
+        border: 3px solid gold;
+       font-weight: bold;
+        font-size: 25px;
+        }
+  
+
+    .pont .butn1 a{color:#e8eae6;
+        text-decoration: none;}
+        
+
+     .butn1:hover {background-color: #f0a500;
+        border: none;}
+       
+
+
+    .heade{position: absolute;
+        width: 300px;
+        bottom: 0%;
+        right: 9%;}
+        .heade  img{width: 100%
+         ;height: 100%;}
+
+    
+ .social{position: fixed;
+    padding: 15px;
+    list-style: none;
+    border-right: 4px solid #f0a500;
+    background-color: #000;z-index:1 ;
+     top: 45%;}
+
+    .social li{padding: 8px 0; }
+
+    .fa-facebook-square{color: #e8eae6;}
+    .fa-twitter-square{color: #e8eae6;}
+    .fa-youtube-play{color:#e8eae6;}
+    .fa-instagram{color: #e8eae6;}
+  
+  li:hover {border-bottom:3px solid #f0a500 ;}
+  @media screen and (max-width: 650px){
+   .pont {
+	   width: 100%;
+	   z-index: 1;
+     }
+	  .pont p{
+		  width:250px;
+	  }
+}
+
+
+/*section2*/
+
+
+ #About{width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+
+   #About  h1 {font-size:50px ;
+    margin-bottom: 25px;
+    color: black;}
+
+
+    #About hr{width: 300px;
+    height: 3px;
+    background-color: #f0a500;
+    margin:0 auto;}
+
+
+.dawn{
+display: flex;
+ 
+justify-content: space-around;
+	padding-top: 50px;
+}
+   
+
+.imeg{
+	flex-basis: 45%;
+}
+
+.imeg img{
+	width: 100%;
+    height: 100%;
+    border: 4px solid #f0a500;
+    opacity: 0.8;
+object-fit: cover;}
+    
+
+.imeg:hover img{opacity: 1;}
+
+ .dawn .pragraf{
+	flex-basis: 45%; 
+}
+   
+
+
+ .pragraf h2{font-size:40px;
+    color: #f0a500;}
+
+
+ .pragraf p{
+	 font-size:20px;
+    line-height: 35px;
+    padding:30px;
+    color: black;}
+
+ .pragraf .butn2{padding: 15px 35px;
+     border: 3px solid #f0a500;
+    text-decoration:none;}
+
+ .butn2 a{ color: black;
+    font-size: 20px;}
+
+    @media screen and (max-width: 650px){
+      /*.imeg {width: 100%;
+     }*/
+		.dawn{
+			flex-direction: column;
+		}
+} 
+
+   /*setion3*/
+   
+   
+ #oner{
+	 width: 100%;
+    
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url(../image/watch4.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+     text-align: center;
+    background-position: center;}
+
+
+    
+
+  #oner h1{font-size: 50px;
+	  padding-top: 100px;
+    margin-bottom: 25px;
+    color: #eee;}
+
+
+ #oner hr{width: 300px;
+    height: 3px;
+    background-color: #f0a500;
+    margin: 0 auto;}
+
+
+ #oner .contenr{
+	 display: flex;
+    justify-content: space-around;
+    padding: 100px 50px;}
+
+
+ #oner  .card1{
+    text-align: center;
+margin-bottom: 30px;}
+    
+    .card1 img{width: 100%;
+		border-radius:90px 10px 90px 10px ;
+        border: 3px solid #f88f01;
+    
+    }
+    .card1  h2{color: #eee;}
+
+    .card1 p{color: #eee; font-size: 18px;}
+
+
+    @media screen and (max-width: 650px){
+      .contenr{
+		  flex-direction: column;
+     }
+}
+
+    #footer{width: 100%;
+      display: flex;
+      justify-content:space-around;
+	align-items: center;
+      background-color: black;
+padding: 100px 0;}
+     
+
+   .div1{
+      color: #eee;}
+     .div1 h3{padding: 5px;}
+     .div1 ul li{padding: 9px;border: none;
+      font-size: 20px ;}
+
+      .div1 form input{padding: 12px 15px;}
+
+      form button{padding: 7px 12px; border:4px solid #f88f01 ;}
+
+      @media screen and (max-width:650px){
+         #footer{flex-direction: column;
+        }}
+ 
+
+      
+
+  
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
